@@ -187,6 +187,7 @@ GEM
       mime-types
     paranoia (2.0.2)
       activerecord (~> 4.0)
+    pg (0.17.1)
     polyamorous (0.6.4)
       activerecord (>= 3.0)
     polyglot (0.3.4)
@@ -242,7 +243,6 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
-    sqlite3 (1.3.9)
     state_machine (1.2.0)
     stringex (1.5.1)
     therubyracer (0.12.1)
@@ -278,13 +278,13 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
+  pg
   rails (= 4.0.3)
   rails_12factor
   sass-rails (~> 4.0.0)
   sdoc
   spree!
   spree_auth_devise!
-  sqlite3
   therubyracer
   turbolinks
   uglifier (>= 1.3.0)
