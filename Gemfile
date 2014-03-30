@@ -46,6 +46,8 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'debugger', group: :development
+
 gem 'rails_12factor', group: :production
 
 #require 'v8'
