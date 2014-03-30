@@ -3,5 +3,5 @@
 Monadex IO aims to provide a teespring.com like site which combines crowd-sourcing
 and custom made t-shirts and more.
 
-Monadex IO aims to use the spree[https://github.com/spree/spree] project as its
+Monadex IO intends to use spree[https://github.com/spree/spree] project as its
 foundation, and build it probably as a collection of spree extensions.
