@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @campaign.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @campaign.description %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @campaign.url %>
+</p>
+
+<p>
+  <strong>Due date:</strong>
+  <%= @campaign.due_date %>
+</p>
+
+<p>
+  <strong>Target num:</strong>
+  <%= @campaign.target_num %>
+</p>
+
+<p>
+  <strong>Product:</strong>
+  <%= @campaign.product_id %>
+</p>
+
+<%= link_to 'Edit', edit_campaign_path(@campaign) %> |
+<%= link_to 'Back', campaigns_path %>
