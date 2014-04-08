@@ -1,11 +1,6 @@
 MonadexIo::Application.routes.draw do
 
   resources :campaigns
-
-  namespace :api, :defaults => { :format => 'json' } do
-    resources :campaigns
-  end
-  
   
   # This line mounts Spree's routes at the root of your application.
   # This means, any requests to URLs such as /products, will go to Spree::ProductsController.
@@ -67,4 +62,10 @@ MonadexIo::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+end
+
+Spree::Core::Engine.add_routes do
+  namespace :api, :defaults => { :format => 'json' } do
+    resources :campaigns
+  end
 end
