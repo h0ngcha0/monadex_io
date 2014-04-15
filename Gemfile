@@ -55,3 +55,6 @@ gem 'therubyracer'
 
 gem 'spree', github: 'liuhongchao/spree', branch: '2-1-stable'
 gem 'spree_auth_devise', github: 'liuhongchao/spree_auth_devise', branch: '2-1-stable'
+
+gem 'spree_wishlist', github: 'spree/spree_wishlist', branch: '2-1-stable'
+gem 'spree_email_to_friend', github: 'spree/spree_email_to_friend', branch: '2-1-stable'
